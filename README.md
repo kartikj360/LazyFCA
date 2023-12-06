@@ -16,17 +16,6 @@ So it introduces students to three main topics:
 2. **Lazy learning**: \
    Predicting labels for small or rapidly changing data; 
 
-## To-do list
-
-* Bare minimum (4 pts.)
-  * [ ] Find a dataset for binary classification:\
-  _Ideal dataset would be: openly available, with various datatypes (numbers, categories, graphs, etc),
-  with hundreds of rows_;
-  * [ ] Describe scaling (binarization) strategy for the dataset features,
-  * [ ] Describe prediction quality measure best suited for the dataset \
-   _(e.g. accuracy, f1 score, or any 
-  [measure](https://en.wikipedia.org/wiki/Evaluation_of_binary_classifiers) that you find reasonable)_,
-   
 
 ## How to submit
 
@@ -38,9 +27,7 @@ A pdf report should describe the reasoning behind every step of your homework. F
 it should contain a description of your dataset, what quality measure you have chosen (and why), 
 how did you optimize the prediction function, etc.  
 
-## Intro to baseline algorithm
-
-### Binary classification setup
+## Binary classification setup
 
 This homework focuses on the task of binary classification. 
 That is, we are given the data $X = \\{x_1, x_2, x_3, ...\\}$
